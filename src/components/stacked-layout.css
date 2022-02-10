@@ -56,8 +56,8 @@ hr {
 
 a {
   color: var(--link);
-  text-decoration: underline;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 a:hover {
@@ -65,7 +65,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 1.875rem;
+  font-size: 1.7em;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -97,4 +97,30 @@ p {
   .note-columns-container {
     width: unset !important;
   }
+}
+
+header h3 {
+  padding: 0;
+  margin: 0;
+  color: #27b382;
+  font-size: 1.3em;
+}
+
+.note-content {
+	scrollbar-color: #bdb9b9 #fff;
+	box-shadow: rgba(0, 0, 0, .125) 0 0 8px;
+}
+
+.note-content::-webkit-scrollbar-track,
+.note-content::-webkit-scrollbar {
+	background-color: #F5F5F5
+}
+
+.note-content::-webkit-scrollbar-thumb {
+	background-color: #bdb9b9;
+}
+
+a[target="_blank"] {
+  color: #00f;
+  text-decoration: none;
 }

@@ -27,6 +27,7 @@
   background-color: var(--note-bg);
   transition: all 0.3s ease-in-out;
   width: 28px;
+  cursor: pointer;
 }
 
 .inputWrapper input:focus {
