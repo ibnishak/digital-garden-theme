@@ -26,8 +26,11 @@ module.exports = (options) => {
           extensions: [`.md`, `.mdx`],
           gatsbyRemarkPlugins: [
             {
-              resolve: "gatsby-remark-double-brackets-link",
-              options: { parseWikiLinks },
+              resolve: `gatsby-remark-double-brackets-link`,
+              options: {
+                parseWikiLinks: true,
+                stripBrackets: true,
+              },
             },
             "gatsby-remark-double-parenthesis-link",
             {
