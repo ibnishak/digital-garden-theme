@@ -1,3 +1,5 @@
+Forked from: https://github.com/mathieudutour/gatsby-digital-garden/tree/master/packages/gatsby-theme-garden
+
 # gatsby-theme-garden
 
 A Gatsby theme for publishing a digital garden.
