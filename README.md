@@ -10,3 +10,4 @@ TODO:
 - Import inter font
 - Implement admonitions
 - Gatsby favicon
+- Header Link is hard coded now

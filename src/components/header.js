@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header>
-      <Link to="/">
+      <Link to="/digital-garden">
         <h3>{siteMetadata.title}</h3>
       </Link>
       <div className="controls">
