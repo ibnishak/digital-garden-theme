@@ -1,4 +1,8 @@
 /*********** TYPOGRAPHY **************/
+@font-face {
+  font-family: 'inter';
+  src: local('inter'), url(../fonts/inter.ttf) format('truetype');
+}
 
 html {
 	font-family: inter, sans-serif;
