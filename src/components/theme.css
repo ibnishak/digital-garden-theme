@@ -30,17 +30,23 @@ body.light-mode {
 /************ DARK MODE **************/
 
 body.dark-mode {
-  --main-bg: #000000;
-  --note-bg: #0a0d11;
-  --text: #fafafc;
-  --separator: #252525;
-  --shadow: rgba(255, 255, 255, 0.1);
-  --link: #3da1ff;
+	--main-bg: #353d44;
+	--note-bg: #1c1e20;
+	--text: #fafafc;
+	--separator: #252525;
+	--shadow: rgba(0, 0, 0, 0.34);
+	--link: #3da1ff;
+	--references-bg: #17181a;
+	--references-bg-80: rgba(23, 24, 26, 0.8);
+	--references-bg-0: rgba(23, 24, 26, 0);
+	--references-text: #8c9fbb;
+	--references-highlight: #b3cbf0;
+}
 
-  /* References */
-  --references-bg: #17181a;
-  --references-bg-80: rgba(23, 24, 26, 0.8);
-  --references-bg-0: rgba(23, 24, 26, 0);
-  --references-text: #8c9fbb;
-  --references-highlight: #b3cbf0;
+body.dark-mode a[target="_blank"]{
+	color: rgb(12, 232, 255);
+}
+
+body.dark-mode * {
+	scrollbar-color: #4e5255 #2e3132 !important;
 }
